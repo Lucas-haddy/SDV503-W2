@@ -12,3 +12,18 @@ const MAX = 100;
 let homeAddress = "58 Somerset Terrace";   // Declared a new variable named homeAddress and assigned it my home address.
 let userAge = "30";   // Declared a new variable named userAge and assigned it the value of 30.   
 console.log(typeof homeAddress)
+
+// Arithmetic'
+5 + 3 // 8  10 - 4 // 6   4 * 3 // 12
+9 / 2 // 4.5  9 % 2 // 1  2 ** 3 // 8
+
+// Comparison - always perfer === over ==
+5 === 5  // true  5 !== 3 // true (strict: checks type + value)
+5 == "5" // true  5 === "5" // false (loose vs strict)
+10 > 3   // true  4 <= 4   // true
+
+// Logical 
+true && false // false   true || false // true  !true // false
+
+// Assignment shorthands
+let x = 10;  x +=5; // 15   x -= 2; // 13   x *= 2; // 26
