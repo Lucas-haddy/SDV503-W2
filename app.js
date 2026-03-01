@@ -11,4 +11,4 @@ const MAX = 100;
 
 let homeAddress = "58 Somerset Terrace";   // Declared a new variable named homeAddress and assigned it my home address.
 let userAge = "30";   // Declared a new variable named userAge and assigned it the value of 30.   
-console.log(homeAddress)
+console.log(typeof homeAddress)
