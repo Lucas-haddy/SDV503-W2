@@ -68,3 +68,32 @@
 const msg = "Hello, JavaScript!";
 console.log(msg)
 console.log(`The length of message is = ${msg.length}`);
+
+let fullName = "Ali Kahwaji";
+
+// if / else if / else
+const score = 75;
+if (score >= 90) {
+    console.log("A");
+} else if (score >= 80) {
+    console.log("B");
+} else if (score >= 70) {
+    console.log("C");
+} else {
+    console.log("Below C");
+}
+
+// switch - great for exact matches
+const day = "Monday";
+switch (day) {
+    case "Monday":
+    case "Tuesday":
+        console.log("Start of the week");
+        break;
+    case "Friday":
+        console.log("TGIF!");
+        break;
+    default:
+        console.log("Midweek");    
+}
+// Falsy values in JS (everything else is truthy): false | 0 | '' (empty string) | null | undefined | NaN
